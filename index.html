@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		/* Set email body background color */
+		body {
+			background-color: #f7f7f7;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            max-width: 600px;
+			           		
+			           
+		}
+
+		h2{
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		/* Set email header background color, text color, and font */
+		.header {
+			background-color: #333333;
+			color: #ffffff;
+			font-family: Arial, sans-serif;
+			padding: 5px;
+			text-align: center;
+			font-size: 20px;
+			height: 100px;
+		}
+
+		/* Set column width and padding */
+		.col {
+			width: 100%;
+			max-width: 600px;
+			padding: 20px;
+			margin: 0 auto;
+			box-sizing: border-box;
+		}
+
+		/* Set column border and background color */
+		.col td {
+			border: 1px solid #dddddd;
+			background-color: #ffffff;
+			padding: 10px;
+			text-align: center;
+			vertical-align: top;
+		}
+
+		/* Set image size and border */
+		.col img {
+			width: 80%;
+			height: 80%;
+			height: auto;
+			border: 0;
+			display: block;
+			margin: 0 auto;
+			
+		}
+
+		/* Set email footer background color, text color, and font */
+		.footer {
+			background-color:black;
+			color: #ffffff;
+			font-family: Arial, sans-serif;
+			padding: 5px;
+			text-align: center;
+			font-size: 12px;
+		}
+        
+         
+        
+
+		/* Set link color */
+		a {
+			color: #333333;
+			text-decoration: none;
+		}
+
+		/* Set link hover color */
+		a:hover {
+			color: #555555;
+		}
+
+		/* Set media query for mobile devices */
+		@media only screen and (max-width: 600px) {
+			.col {
+				max-width: 100%;
+				display: block;
+				margin: 0 auto;
+				box-sizing: border-box;
+				padding: 0;
+			}
+
+			.col td {
+				display: block;
+				border: none;
+				padding: 100px 0;
+			}
+
+			.col img {
+				max-width: 100%;
+				height: auto;
+				margin: 0 auto;
+			}
+		}
+
+		.body-wrapper{
+		border-style:solid;
+		
+		
+		}
+		h4 {
+			color: green;
+			font-weight: 1000;
+			font-size: 15px;
+		} 
+		
+		.letter p{
+			border:blue; 
+			margin-left: 10px;
+			margin-right: 10px;
+			text-align: justify;
+		}
+		
+		
+		
+        
+        
+        
+        
+	</style>
+</head>
+<body>
+    <div class= "body-wrapper">
+	<!-- Email header -->
+	<div class="header">
+		
+		<img src="/logo.png" alt="A car" with="50px;" height="50px;">
+		<h6>If it is not BMW, it doesn't belong here...</h6>
+	</div>
+	<div class="letter">
+		<h4>Dear Esteemed client,</h4> 
+		<p>The following range of sports cars are all on offer at discounted prices
+			as shown in the display. As our return customer, we shall give you a discounted
+			price of 25% less. In addition, you stand to enjoy free insurance cover for one year
+			and a full month of fueling at our appointed gas stations.
+			Hurry as stocks last!!!!!<br> <br>
+
+			Sincerely, <br><br>
+
+			H.E.O.<br>
+			<em>Marketing Executive</em><br>
+			<em>BMW East Africa Limited</em>
+		</p>
+
+	</div>
+
+	<!-- Email content -->
+	<table class="col">
+		<tr>
+			<td>
+				<img src="/car1.png" alt="Image placeholder">
+				<h3>$12,000,000.0</h3>
+			</td>
+			<td>
+				<img src="/car5.png" alt="Image placeholder">
+				<h3>$9,000,000.0</h3>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<img src="/car7.png" alt="Image placeholder">
+				<h3>$18,000,000.0</h3>
+			</td>
+			<td>
+				<img src="/car3.png" alt="Image placeholder">
+				<h3>$40,000,000.0</h3>
+			</td>
+		</tr>
+	</table>
+
+	<!-- Email footer -->
+	<div class="footer">
+		<p>BMW Kenya Limited</p>
+		<p>P.O Box 0010010</p>
+		<p>NAIROBI</p>
+		<p>CALL: 0780010010</p>
+		<p>EMAIL: omungahudson@gmail.com</p>
+	</div>
+</div>
+</body>
+</html>
